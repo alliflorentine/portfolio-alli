@@ -13,7 +13,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 header {
   background-color: #30D5C8;
   padding: 30px;
@@ -22,7 +21,6 @@ header {
   color: pink;
 }
 
-/* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
   width: 30%;
@@ -43,15 +41,13 @@ article {
   background-color: pink;
   height: 300px; 
 }
-
-/* Clear floats after the columns */
+  
 section::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the footer */
 footer {
   background-color: #30D5C8;
   padding: 10px;
@@ -59,7 +55,6 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
@@ -74,23 +69,26 @@ footer {
 <p>My name is Allison Florentine and I am a software developer. Below are some of my  projects.</p>
 
 <header>
-  <h2>img</h2>
+  <h2><img src="calender.jpg" alt="calender"></h2>
 </header>
 
 <section>
   <nav>
     <ul>
       <li><a href="#calender.png">calender</a></li>
+      <img src="calender.png" alt="calender">
     </ul>
   </nav>
   
   <section>
     <a href="#calculator.jpg">calculator</a>
+    <img src="calculator.jpg" alt="calculator">
   </section>
   
   <section>
    <div style = "position:relative; left:350px; top:-300px;">
         <a href="#tdl.jpg">To Do List</a>
+     <img src="tdl.jpg" alt="to do list">
       </div></a>
 </section>
 
